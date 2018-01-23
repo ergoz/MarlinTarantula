@@ -76,7 +76,7 @@
 //#define SN04          // Green sensor
 //#define INDUCTIVE_NO  // Normally open inductive sensor
 //#define INDUCTIVE_NC  // Normally closed inductive sensor
-//#define SERVO_PROBE   // Endstop switch on rotating arm. Set servo angles!
+//#define SERVO_PROBE   // Endstop on rotating arm. Set servo angles!
 
 /**
  * Bed leveling type (see: https://github.com/JimBrown/MarlinTarantula/wiki/Bed-leveling-types-(EasyConfig))
@@ -601,7 +601,7 @@
 // If this is enabled, find your own PID constants below.
 #define PIDTEMPBED
 
-//#define BED_LIMIT_SWITCHING
+#define BED_LIMIT_SWITCHING
 
 // This sets the max power delivered to the bed, and replaces the HEATER_BED_DUTY_CYCLE_DIVIDER option.
 // all forms of bed control obey this (PID, bang-bang, bang-bang with hysteresis)
